@@ -1,6 +1,6 @@
 {
   "name": "@saltcute/kasumi-essential",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "a simple ping command for Kasumi",
   "main": "dist/index.js",
   "scripts": {
