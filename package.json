@@ -1,0 +1,35 @@
+{
+  "name": "@saltcute/kasumi-essential",
+  "version": "0.1.0",
+  "description": "a simple ping command for Kasumi",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf dist/*",
+    "make": "npm run clean && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hexona69/kasumi-ping.git"
+  },
+  "keywords": [
+    "KOOK",
+    "chatbot",
+    "bot",
+    "typescript",
+    "javascript"
+  ],
+  "author": "Hexona",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hexona69/kasumi-ping/issues"
+  },
+  "homepage": "https://github.com/Hexona69/kasumi-ping#readme",
+  "dependencies": {
+    "@saltcute/kasumi-ping": "^0.1.1",
+    "@saltcute/kasumi-status": "^0.1.3",
+    "kasumi.js": "^0.5.2",
+    "typescript": "^5.2.2"
+  },
+  "types": "./dist/index.d.ts"
+}
