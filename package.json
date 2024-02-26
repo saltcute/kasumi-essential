@@ -1,6 +1,6 @@
 {
   "name": "@saltcute/kasumi-essential",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "a simple ping command for Kasumi",
   "main": "dist/index.js",
   "scripts": {
@@ -28,7 +28,7 @@
   "dependencies": {
     "@saltcute/kasumi-ping": "^0.1.1",
     "@saltcute/kasumi-status": "^0.1.4",
-    "kasumi.js": "^0.5.2",
+    "kasumi.js": "^0.6.0",
     "typescript": "^5.2.2"
   },
   "types": "./dist/index.d.ts"

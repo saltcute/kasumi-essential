@@ -1,6 +1,6 @@
 import PingCommand from "@saltcute/kasumi-ping";
 import StatusCommand from "@saltcute/kasumi-status";
-import Kasumi, { BaseMenu, BaseSession, CommandFunction } from "kasumi.js";
+import Kasumi, { BaseMenu } from "kasumi.js";
 
 class EssentialMenu extends BaseMenu {
     constructor(name: string = "essential") {
