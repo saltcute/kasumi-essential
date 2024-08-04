@@ -31,5 +31,8 @@
     "kasumi.js": "^0.6.0",
     "typescript": "^5.2.2"
   },
-  "types": "./dist/index.d.ts"
+  "types": "./dist/index.d.ts",
+  "localDependencies": {
+    "@saltcute/kasumi-status": "../kasumi-status"
+  }
 }
