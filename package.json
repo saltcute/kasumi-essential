@@ -27,7 +27,7 @@
   "homepage": "https://github.com/Hexona69/kasumi-ping#readme",
   "dependencies": {
     "@saltcute/kasumi-ping": "^0.1.1",
-    "@saltcute/kasumi-status": "^0.1.4",
+    "@saltcute/kasumi-status": "^0.1.7",
     "kasumi.js": "^0.6.0",
     "typescript": "^5.2.2"
   },
