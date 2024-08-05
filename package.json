@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc",
     "clean": "rimraf dist/*",
-    "make": "npm run clean && npm run build"
+    "make": "npm run lint && npm run clean && npm run build",
+    "lint": "prettier --write \"src/**/*.ts\""
   },
   "repository": {
     "type": "git",
@@ -34,5 +35,8 @@
   "types": "./dist/index.d.ts",
   "localDependencies": {
     "@saltcute/kasumi-status": "../kasumi-status"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3"
   }
 }
